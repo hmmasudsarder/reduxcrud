@@ -37,9 +37,9 @@ const Feed = () => {
           <button className="text-lg p-3 rounded-md bg-green-200" type="submit">sumit</button>
         </form>
       </div>
-      {/* <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <PostCard post={post} />
-      </div> */}
+      </div>
     </div>
   );
 };
