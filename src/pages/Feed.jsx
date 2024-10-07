@@ -16,8 +16,10 @@ const Feed = () => {
 
   console.log(postData);
 
-  const onSubmit = (data) => {
-    setPost(data);
+  const onSubmit = async(data) => {
+   const response=await setPost(data);
+   console.log(response);
+
     
   };
 
